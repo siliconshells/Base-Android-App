@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     Retrofit retrofit = new Retrofit.Builder()
-            .baseUrl("http://pixabackend-env.gnpjv35mcc.us-east-1.elasticbeanstalk.com/")
+            .baseUrl(XXXXX)
             .addConverterFactory(GsonConverterFactory.create())
             .build();
 
